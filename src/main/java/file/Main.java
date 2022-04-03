@@ -12,10 +12,12 @@ public class Main{
         String mtel_statistics = "MTEL Statistics";
         String globalCom_statistics = "GlobalCom Statistics";
 
-//        Path path = Path.of("/Users/amarachi/desktop/untitled/PhoneNumbers.txt");
-
+//     path to the file containing the phone numbers
         Path path = Path.of("src/main/resources/PhoneNumbers.txt");
+
         FileParser fileParser = new FileParser();
+
+//        calling the method that reads the file and groups it according to it's starting code
         Map<String, Long> temp = fileParser.groupByStartingCode(path);
 
 
