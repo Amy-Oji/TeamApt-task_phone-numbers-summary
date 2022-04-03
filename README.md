@@ -1,6 +1,6 @@
 ### Phone Numbers Summary Generator App
 *****
-This is a java application that generates a summary report with the total number of phone numbers for each service provider(MTN, Airtel, Globacom, 9Mobile & MTEL). 
+This is a java application that generates a summary report of the total number of phone numbers for each service provider(MTN, Airtel, Globacom, 9Mobile & MTEL). The application was developed with Java17.
 
 Correctness and speed was considered a priority in developing the app.
 ****
